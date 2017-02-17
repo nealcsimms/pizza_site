@@ -1,0 +1,8 @@
+<h2>Location Name</h2>
+
+<!--div repeating for each pizza in location's corresponding array-->
+<div class="pizzas" ng-repeat="pizza in chiPizzas">
+	<img ng-src="{{pizza.imageUrl}}"/>
+	<h3>{{pizza.name}}</h3>
+	<p>{{pizza.toppings}}</p>
+</div>
