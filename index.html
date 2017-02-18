@@ -3,15 +3,19 @@
 	<head>
 		<title>
 		</title>
-		<link type="text/css" rel="stylesheet" src="css/master.css"/>
-		
+		<link type="text/css" rel="stylesheet" href="css/master.css">
+		<link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
 	</head>
 	<body>
 		<!--fixed side navbar of unordered list items as links-->
 		<ul id="nav">
+			<li id="navHeader">Pizza Conglomo</li>
+			<li class="cities"><a href="#/nyc">NYC</a></li>
+			<li class="cities"><a href="#/sanfran">San Francisco</a></li>
+			<li class="cities"><a href="#/chi">Chicago</a></li>
 		</ul>
 		<!--div containing our angularJS routing view per location-->
-		<div id="view" ng-view="">
+		<div id="view" ng-view="" ng-controller="pizzaController">
 		</div>
 
 

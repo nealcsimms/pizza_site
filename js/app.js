@@ -36,22 +36,23 @@ app.config(function($routeProvider) {
     });
 });
 
+app.controller('pizzaController', function($scope){
 //menu arrays per location containing pizza objects, add menu's for new locations here
 $scope.nycPizzas = [
 {
-	type:"",
+	type:"Meat",
 	imageUrl: "",
-	name:"",
-	toppings:""
+	name:"Neal'apeal",
+	toppings:"Pepperoni, Yellow Peppers, Green olives"
 },
 {
-	type:"",
+	type:"Veggie",
 	imageUrl: "",
 	name:"",
-	toppings:""
+	toppings:"Mushrooms, Roasted Garlic, Leeks"
 },
 {
-	type:"",
+	type:"Cheese",
 	imageUrl: "",
 	name:"",
 	toppings:""
@@ -60,19 +61,19 @@ $scope.nycPizzas = [
 
 $scope.sanfranPizzas = [
 {
-	type:"",
+	type:"Meat",
 	imageUrl: "",
 	name:"",
 	toppings:""
 },
 {
-	type:"",
+	type:"Veggie",
 	imageUrl: "",
 	name:"",
 	toppings:""
 },
 {
-	type:"",
+	type:"Cheese",
 	imageUrl: "",
 	name:"",
 	toppings:""
@@ -81,23 +82,23 @@ $scope.sanfranPizzas = [
 
 $scope.chiPizzas = [
 {
-	type:"",
+	type:"Meat",
 	imageUrl: "",
 	name:"",
 	toppings:""
 },
 {
-	type:"",
+	type:"Veggie",
 	imageUrl: "",
 	name:"",
 	toppings:""
 },
 {
-	type:"",
+	type:"Cheese",
 	imageUrl: "",
 	name:"",
 	toppings:""
 }
 ];
 
-
+});

@@ -1,8 +1,9 @@
-<h2>Location Name</h2>
+<h2 class="location">Location Name</h2>
 
 <!--div repeating for each pizza in location's corresponding array-->
 <div class="pizzas" ng-repeat="pizza in nycPizzas">
-	<img ng-src="{{pizza.imageUrl}}"/>
-	<h3>{{pizza.name}}</h3>
-	<p>{{pizza.toppings}}</p>
+	<h2 class="type">{{pizza.type}}</h2>
+	<img class="menu-pic" ng-src="{{pizza.imageUrl}}"/>
+	<h3 class="pizza-name">{{pizza.name}}</h3>
+	<p class="topping">{{pizza.toppings}}</p>
 </div>
