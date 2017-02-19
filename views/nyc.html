@@ -1,9 +1,10 @@
-<h2 class="location">Location Name</h2>
+<h1 class="locations">Life of Pie</h1>
 
 <!--div repeating for each pizza in location's corresponding array-->
 <div class="pizzas" ng-repeat="pizza in nycPizzas">
 	<h2 class="type">{{pizza.type}}</h2>
 	<img class="menu-pic" ng-src="{{pizza.imageUrl}}"/>
 	<h3 class="pizza-name">{{pizza.name}}</h3>
-	<p class="topping">{{pizza.toppings}}</p>
+	<button ng-click="pizza.toptoggle= !pizza.toptoggle">View Toppings</button>
+	<p ng-class="{'toggled': pizza.toptoggle}" class="toppings">{{pizza.toppings}}</p>
 </div>
