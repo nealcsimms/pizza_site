@@ -43,19 +43,19 @@ app.controller('pizzaController', function($scope){
 $scope.nycPizzas = [
 {
 	type:"Meat",
-	imageUrl: "http://placehold.it/50x50",
+	imageUrl: "images/pizza2.png",
 	name:"Neal'apeal",
 	toppings:"Pepperoni, Yellow Peppers, Green olives"
 },
 {
 	type:"Veggie",
-	imageUrl: "http://placehold.it/50x50",
+	imageUrl: "images/pizza2.png",
 	name:"Forager",
 	toppings:"Mushrooms, Roasted Garlic, Leeks"
 },
 {
 	type:"Cheese",
-	imageUrl: "http://placehold.it/50x50",
+	imageUrl: "images/pizza2.png",
 	name:"Quatro",
 	toppings:"Gouda, Gruyere, Parmesan, Mozzarella"
 }
@@ -64,19 +64,19 @@ $scope.nycPizzas = [
 $scope.sanfranPizzas = [
 {
 	type:"Meat",
-	imageUrl: "http://placehold.it/50x50",
+	imageUrl: "images/pizza2.png",
 	name:"Goodfella",
 	toppings:"Pepperoni, Ham, Salami, Giardiniera"
 },
 {
 	type:"Veggie",
-	imageUrl: "http://placehold.it/50x50",
+	imageUrl: "images/pizza2.png",
 	name:"Billy Goat",
 	toppings:"Mushrooms, Chevre, Parsely, Drizzle"
 },
 {
 	type:"Cheese",
-	imageUrl: "http://placehold.it/50x50",
+	imageUrl: "images/pizza2.png",
 	name:"Baby Blue",
 	toppings:"Baby Brie, Blue, Honey"
 }
@@ -85,19 +85,19 @@ $scope.sanfranPizzas = [
 $scope.chiPizzas = [
 {
 	type:"Meat",
-	imageUrl: "http://placehold.it/50x50",
+	imageUrl: "images/pizza2.png",
 	name:"Windy City",
 	toppings:"Pepperoni, Sausage, Green Pepper"
 },
 {
 	type:"Veggie",
-	imageUrl: "http://placehold.it/50x50",
+	imageUrl: "images/pizza2.png",
 	name:"Spud Boy",
 	toppings:"Potato, Mushrooms, Green Onion, Cheddar"
 },
 { 
 	type:"Cheese",
-	imageUrl: "http://placehold.it/50x50",
+	imageUrl: "images/pizza2.png",
 	name:"Bayside",
 	toppings:"Fried Cheese Curds, Mozzarella"
 }

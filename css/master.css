@@ -95,8 +95,9 @@ button {
 
 
 
-@media screen and (max-width 480px){
+@media screen and (max-width: 480px){
 	#nav {
+		text-align: center;
 		position:relative;
 		display:block;
 		height:300px;
@@ -104,6 +105,8 @@ button {
 	}
 
 	#view{
+		margin-top:10px;
+		margin-left:20px;
 		display:block;
 	}
 
