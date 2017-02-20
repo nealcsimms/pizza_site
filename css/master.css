@@ -95,3 +95,19 @@ button {
 
 
 
+@media screen and (max-width 480px){
+	#nav {
+		position:relative;
+		display:block;
+		height:300px;
+		width:100%;
+	}
+
+	#view{
+		display:block;
+	}
+
+	.pizzas {
+		display:block;
+	}
+}
