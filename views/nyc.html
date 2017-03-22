@@ -5,6 +5,6 @@
 	<h2 class="type">{{pizza.type}}</h2>
 	<img class="menu-pic" ng-src="{{pizza.imageUrl}}"/>
 	<h3 class="pizza-name">{{pizza.name}}</h3>
-	<button ng-click="pizza.toptoggle= !pizza.toptoggle">View Toppings</button>
+	<button class="button" ng-click="pizza.toptoggle= !pizza.toptoggle">View Toppings</button>
 	<p ng-class="{'toggled': pizza.toptoggle}" class="toppings">{{pizza.toppings}}</p>
 </div>

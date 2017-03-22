@@ -78,13 +78,19 @@ a {
 	width: 50px;
 }
 
-button {
+.button {
 	border: none;
-	color: #FFAF4A;
-	background-color: white;
+	color: white;
+	background-color: tan;
 	border-radius: 4px;
 	font-size: 20px;
-	font-family: 'Damion'; 
+	font-family: 'Damion';
+	box-shadow: 0 4px #666;
+}
+
+.button:active {
+    box-shadow: 0 2px #999;
+    transform: translateY(4px);
 }
 
 .toppings {
